@@ -59,10 +59,11 @@ useEffect(()=>{
 <div className='ml-10'>
 
 <PortableText value={blogpost.body}/>
-<div className='mt-10 '>
-{blogpost.secondmainImage&& <img src={blogpost.secondmainImage.asset.url} alt={blogpost.secondmainImage.alt} className=' object-cover w-96 h-96 pb-10'/>} 
 
 </div>
+<div className='mt-10 ml-5  '>
+{blogpost.secondmainImage&& <img src={blogpost.secondmainImage.asset.url} alt={blogpost.secondmainImage.alt} className=' object-cover w-96 h-96 pb-10 '/>} 
+
 </div>
     
      
