@@ -54,7 +54,7 @@ const NextMatch = () => {
         <div className="font  bg-black ">
         <h1 className=" text-center text-6xl mt-10  uppercase pt-4 ">Prochain match</h1>
         </div>
-      <div className="bg-black pb-10">
+      <div className="bg-black/80 pb-10">
       <img src="https://wallpaperbat.com/img/8657700-close-up-crocodile.jpg" alt="" className="w-full   "/>
         {nextmatchs.map((nextM) => (
           <div>
