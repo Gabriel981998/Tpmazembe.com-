@@ -49,7 +49,7 @@ const Matchs = () => {
 
   
 
-      <div className="match">
+      <div className="font-serif">
       <section className="    grid grid-cols-1  md:grid-cols-3 lg:grid-cols-3 bg-white ">
 
       
